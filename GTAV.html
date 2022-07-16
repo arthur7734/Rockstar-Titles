@@ -21,17 +21,18 @@
                 margin-bottom: 0px;
             }
             .pics {
-                float: left;
+                
                 height: 100px;
                 padding: 5px;
+                display: inline-block
             }
             #image1 {
                 margin-left: ;
             }
             #image3 {
-                margin-left: 425px;
+                margin-left: 320px;
             }
-            h2 {
+            #firstline {
                text-align: center; 
                color: green;
                background-color: black;
@@ -43,36 +44,51 @@
                 margin-top: 0px;
                 font-size: 30px;
                 margin-bottom: 0px;
-               
-            }
-            p {
+                }
+                #secondline {
+                    margin-left: 225px;
+                    margin-top: 100px;
+                    font-size: 30px;
+                    color: white;
+                    background-color: black;
+                    width:350px;
+                    text-align: center;
+                    font-family: 'Courier New', Courier, monospace;
+                }
+            #firstp {
                 text-align: center;
                 font-size: 35px;
                 font-style: italic;
+                margin-bottom: 0px;
+            }
+            #secondp {
+                font-size: 20px;
+                font-style: italic;
+                text-align: center;
+                width: 800px;
+            }
+            .f2 {
+                display: inline-block;
+            }
+            #visuals {
+                float: right;
+                margin-top: 0px;
             }
         </style>
     </head>
     <body>
         <h1>Grand Theft Auto V</h1>
-        <div class="clearfix"></div>
         <div class="pics" id="image3"><img src="franklin.jpg"></div>
+        <div class="pics" id="image2"><img src="GTA5.jpeg"></div>
         <div class="pics" id="image1"><img src="michael.jpg"></div>
          <div class="pics" id="image2"><img src="trevor.jpg"></div>
+         
+        <h2 id="firstline">Welcome To Los Santos</h2>
+        <p id="firstp"><strong>When a young street hustler, a retired bank robber, and a terrifying psychopath find themselves entangled with some of the most frightening and deranged elements of the criminal underworld, the U.S. government, and the entertainment industry, they must pull off a series of dangerous heists to survive in a ruthless city in which they can trust nobody — least of all each other.</strong></p>
         <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <h2>Welcome To Los Santos</h2>
-        <p><strong>When a young street hustler, a retired bank robber, and a terrifying psychopath find themselves entangled with some of the most frightening and deranged elements of the criminal underworld, the U.S. government, and the entertainment industry, they must pull off a series of dangerous heists to survive in a ruthless city in which they can trust nobody — least of all each other.</strong></p>
+        <div class="f2" id="visuals"><img src="visuals.jpg"></div>
+        <h2 class="f2" id="secondline">  Stunning Visuals</h2>
+        <p class="f2" id="secondp"><strong>Enhanced levels of fidelity and performance with new graphics modes featuring up to 4K resolution, up to 60 frames per second, HDR options, ray tracing, improved texture qualities, and more.</strong></p>
+        
     </body>
 </html>
